@@ -21,3 +21,18 @@ str = "  hi My name is  anu   "
 print(str.strip())
 print(str.lstrip())
 print(str.rstrip())
+
+print("name - anu".split('-'))  # ['name', 'anu']    - It can create list by default delimeter space
+
+word = ["Hello", "world"]
+print("-".join(word))   #Hello-world
+
+# partition() - o/p in three parts and in tuples
+print("welcome-to-python".partition('-'))  #('welcome', '-', 'to-python')
+
+#ljust() - makes a string left aligned and adds extra char to the right to reach a fixed length
+# rjust()
+print("hii".ljust(8,'-'))
+print("hii".rjust(8,'-'))
+
+
