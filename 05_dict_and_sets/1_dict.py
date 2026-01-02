@@ -7,6 +7,6 @@ marks = {
   "Seeta":78
 }
 
-# print(marks,type(marks))
+print(marks,type(marks))
 
 print(marks["Anu"])

@@ -13,3 +13,6 @@ class Employee:
 anu = Employee("radha", 12000)
 # anu.name = "anu"
 print(anu.name,anu.salary)
+
+
+

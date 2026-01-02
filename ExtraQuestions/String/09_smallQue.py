@@ -13,6 +13,7 @@ print(len(str.split()))
 
 # Replace multiple spaces with single space
 s = "Python   is   fun"
+# print(s.replace("  ",""))
 print(" ".join(s.split()))   # Python is fun
 
 # Format string with variable

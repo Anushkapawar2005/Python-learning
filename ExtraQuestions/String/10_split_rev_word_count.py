@@ -2,6 +2,7 @@
 
 s = "Python is fun"
 words = s.split()
+# print(words)
 words.reverse()
 print(" ".join(words))
 

@@ -5,8 +5,12 @@ marks = {
   0: "Anu"
 }
 
-print(marks.items())  # in tuples format
-print(marks.keys())  #print keys (left)
+print(marks.items())  # in tuples format in list 
+# dict_items([('Anu', 87), ('Ram', 98), ('Seeta', 78), (0, 'Anu')])
+
+print(marks.keys())  #print keys (left) 
+# dict_keys(['Anu', 'Ram', 'Seeta', 0])
+
 print(marks.values())  #print values (right)
 marks.update({"Anu":80, "Renuka":99})
 print(marks)
@@ -17,11 +21,11 @@ print(marks)
 data = {'name':'Anushka','age' : 20}
 print(data['name'])  # Anushka
 print(data.get('city','NA'))  # NA
-
+8
 # Removing items
 
 # print(data.pop('age'))  # 20
-# print(data.popitem()) # remove last item
+# print(data.popitem()) # remove last item  ('age', 20)
 # del data['name']  # delete name
 # data.clear()    # empties dict
 

@@ -6,4 +6,4 @@ print(str.swapcase())    # pYTHON
 
 
 # Remove first and last character
-print(str[1:-1])    # ytho
+print(str[1:-1])    # ytho     # 1 ch include -1 exclude 
